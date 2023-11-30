@@ -1,0 +1,36 @@
+h1 {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    list-style: none;
+
+    width: 0;
+    margin: auto;
+
+    padding-left: 0;
+
+    text-align: center;
+
+    border-style: dashed;
+
+}
+
+.nav>li{
+
+    border-style: outset;
+    display: inline-block;
+
+    
+}
+
+    .nav>li>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav>li>a:hover {
+        background-color: blueviolet;
+    }
+
